@@ -1,6 +1,6 @@
-# A little birthday card
+# HubbyBirthdayCard
 
-A mobile-first React birthday card built with Vite.
+A mobile-first React birthday card with a photo story, a candle wish, a gift reveal, and a personal note.
 
 ## Run locally
 
@@ -11,8 +11,8 @@ npm run dev
 
 ## Personalize it
 
-Edit the letter and birthday date surprise in `src/main.jsx`. The app is intentionally dependency-light, and the mobile layout adapts to larger screens too.
+Edit the letter and photo captions in `src/main.jsx`. Replace the music file at `public/music/kesariya.mp3` or the photos in `public/photos/` to personalize the card.
 
 ## Deploy with GitHub Pages
 
-Push this project to a GitHub repository on the `main` branch. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**. The workflow in `.github/workflows/deploy.yml` builds and deploys the site after each push to `main`.
+In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**. The workflow in `.github/workflows/deploy.yml` builds and deploys the site after each push to `main`.
